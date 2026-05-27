@@ -1,6 +1,8 @@
 const express = require("express");
 const app = express();
 
+let x = 10
+
 app.get("/", async (req, res) => {
     res.status(200).send("Xin chào bạn");
 });
